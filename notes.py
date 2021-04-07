@@ -15,7 +15,13 @@ my_list = [1, 2, 3]
 my_list = (1, 2, 3)
 
 # Set - Similar to dictionary, but only contains unique elements
-print({1,1,1,2,2,3,4,5,6})
+print({1, 1, 1, 2, 2, 3, 4, 5, 6})
 # output => {1,2,3,4,5,6}
 
-# Comparison Operators 
+# Comparison Operators
+print(1 >= 2)
+print(1 <= 2)
+print(1 == 2)
+print(1 == 1)
+print(1 == 1 and 2 < 3)
+print(1 == 1 or 2 > 3)
