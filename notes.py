@@ -25,3 +25,14 @@ print(1 == 2)
 print(1 == 1)
 print(1 == 1 and 2 < 3)
 print(1 == 1 or 2 > 3)
+
+# If Elif Else
+if 1 < 2:
+  print('Hell Yeah!')
+
+if 1 == 2:
+  print('This is broken')
+elif 3 == 3:
+  print('Threes!')
+else:
+  print('correct')
