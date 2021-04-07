@@ -36,3 +36,18 @@ elif 3 == 3:
   print('Threes!')
 else:
   print('correct')
+# output => Hell Yeah! and Threes! 
+# Hell Yeah! is true because 1 is less than 2, so would print the string under. 
+# Threes! is true because 1 != 2, so the next condition is if 3 == 3, which is true. This prints the string underneath
+
+# For Loops and While Loops
+sequence = [1,2,3,4,5]
+
+for num in sequence:
+  print(num)
+# output => 1,2,3,4,5 individually
+
+i = 1
+while i < 5:
+  print('i is:{}'.format(i))
+  i = i + 1
