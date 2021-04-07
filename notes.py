@@ -40,15 +40,25 @@ else:
 # Hell Yeah! is true because 1 is less than 2, so would print the string under. 
 # Threes! is true because 1 != 2, so the next condition is if 3 == 3, which is true. This prints the string underneath
 
-# For Loops and While Loops
+# For Loops
+
 sequence = [1,2,3,4,5]
 
 for num in sequence:
   print(num)
-# output => 1,2,3,4,5 individually
+# output => 1
+# output => 2
+# output => 3
+# output => 4
+# output => 5
+
+# While Loops
 
 i = 1
 while i < 5:
   print('i is:{}'.format(i))
   i = i + 1
-  
+# output => i is: 1
+# output => i is: 2
+# output => i is: 3
+# output => i is: 4
