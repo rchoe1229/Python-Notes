@@ -73,3 +73,13 @@ for num in range(0,5):
 # output => 4
 print(list(range(10)))
 # output => [0,1,2,3,4,5,6,7,8,9]
+
+# List Comprehension(First example is with a for loop and second is list comprehension, both do the same)
+x = [1,2,3,4]
+out = []
+for num in x:
+  out.append(num**2)
+print(out)
+# output => [1,4,9,16]
+print([num**2 for num in x])
+# output => [1,4,9,16]
