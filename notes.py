@@ -74,7 +74,7 @@ for num in range(0,5):
 print(list(range(10)))
 # output => [0,1,2,3,4,5,6,7,8,9]
 
-# List Comprehension(First example is with a for loop and second is list comprehension, both do the same)
+# List Comprehension (First example is with a for loop and second is list comprehension, both do the same)
 x = [1,2,3,4]
 out = []
 for num in x:
@@ -83,5 +83,20 @@ print(out)
 # output => [1,4,9,16]
 print([num**2 for num in x])
 # output => [1,4,9,16]
-# List comprehension basically took the for loop and logically did it backwards
-# Every number in our x array will be squared is how line 84 is read
+"""
+List comprehension basically took the for loop and logically did it backwards
+Every number in our x array will be squared is how line 84 is read
+"""
+
+# Functions (names should be lower case, functions also take in parameter/s)
+def my_func(name):
+  print('Hello ' + name)
+
+my_func('Chad')
+# output => Hello Chad
+
+def square(num):
+  return num**2
+
+output = square(2)
+print(output)
