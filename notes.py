@@ -1,6 +1,8 @@
+# Displaying information w/ print
 print("Hello World")
 # output => Hello World
 
+# Dictionary and indexing
 d = {"k1": {"innerkey": [1, 2, 3]}}
 print(d["k1"]["innerkey"])
 # output => [1, 2, 3]
