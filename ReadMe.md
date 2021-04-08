@@ -14,3 +14,4 @@ This project will highlight the journey through my Python learning! notes.py is 
 - Python 3.9.4
 - Python Extension
 - AREPL Extension
+** Utilized Better Comments extension to aid with visual separation **
