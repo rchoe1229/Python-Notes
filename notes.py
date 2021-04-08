@@ -118,3 +118,34 @@ for num in score:
 # output => 3
 # output => 4
 # output => 5
+
+# Map/Filter and Lamda Expressions
+def times2(var):
+  return var*2
+""" 
+The above function can be rewritten as a lambda expression,
+or also known as an anonymous function. Below will show you the
+iterpretation of a lamda expression
+"""
+t = lambda var:var*2
+
+print(times2(5))
+
+my_list = [1,2,3,4,5]
+print(
+  list(map(times2, my_list))
+  )
+# output => [2, 4, 6, 8, 10]
+
+# map w/ lambda expression
+my_list = [1,2,3,4,5]
+print(
+  list(map(lambda num: num*3, my_list))
+  )
+# output => [3, 6, 9, 12, 15]
+
+# filter
+print(
+  list(filter(lambda num: num%2 == 0, my_list))
+)
+
