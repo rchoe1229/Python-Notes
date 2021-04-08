@@ -100,3 +100,21 @@ def square(num):
 
 output = square(2)
 print(output)
+# output => 4
+
+score = [1,2,3,4,5]
+
+def print_score():
+  return score
+
+print(print_score())
+# output => [1,2,3,4,5]
+
+# just a little for loop so you dont forget ;)
+for num in score:
+  print(num)
+# output => 1
+# output => 2
+# output => 3
+# output => 4
+# output => 5
