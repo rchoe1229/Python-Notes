@@ -83,3 +83,5 @@ print(out)
 # output => [1,4,9,16]
 print([num**2 for num in x])
 # output => [1,4,9,16]
+# List comprehension basically took the for loop and logically did it backwards
+# Every number in our x array will be squared is how line 84 is read
