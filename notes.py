@@ -62,3 +62,14 @@ while i < 5:
 # output => i is: 2
 # output => i is: 3
 # output => i is: 4
+
+#  Range
+for num in range(0,5):
+  print(num)
+# output => 0
+# output => 1
+# output => 2
+# output => 3
+# output => 4
+print(list(range(10)))
+# output => [0,1,2,3,4,5,6,7,8,9]
