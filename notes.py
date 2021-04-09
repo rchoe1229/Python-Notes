@@ -172,3 +172,17 @@ print(d.items())
 # output => dict_items([('k1', 1), ('k2', 2)])
 print(d.values())
 # output => dict_values([1, 2])
+
+#! Tuple Unpacking
+x = [(1,2),(3,4),(5,6)]
+print(x[0][0])
+
+for item in x:
+  print(item)
+# output => (1, 2)
+# output => (3, 4)
+# output => (5, 6)
+
+for a,b in x:
+  print(a)
+# output => 1 ,3, 5
