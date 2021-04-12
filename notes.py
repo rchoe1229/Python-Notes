@@ -173,6 +173,8 @@ print(s.upper())
 # output => HELLO MY NAME IS RYAN
 print(s.split())
 # output => ['hello', 'my', 'name', 'is', 'Ryan']
+
+# Pop method
 print(my_list.pop())
 # output => 5
 print(my_list)
@@ -180,6 +182,28 @@ print(my_list)
 my_list.append(5)
 print(my_list)
 # output => [1, 2, 3, 4, 5]
+
+# Format method
+print('This is a string {}'.format('INSERTED'))
+#  output => This is a string INSERTED
+print('The {2} {1} {0}'.format('fox','brown','quick'))
+# output => The quick brown fox
+print('The {q} {b} {f}'.format(f='fox',b='brown',q='quick'))
+# output => The quick brown fox
+
+"""
+Float formatting allows users to adjust the values width and precision
+First number after colon represents the width or whitespace
+Decimal shows the precision 
+f is part of the formatiing
+"""
+result = 100/777
+print('The result was {r}'.format(r=result))
+# output => The result was 0.1287001287001287
+print('The result was {r:1.3f}'.format(r=result))
+# output => The result was 0.129
+print('The result was {r:10.3f}'.format(r=result))
+# output => The result was      0.129
 
 #! Dictionary Calls
 d = {'k1':1,'k2':2 }
