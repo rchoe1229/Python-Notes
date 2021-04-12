@@ -24,6 +24,8 @@ print(my_string[3:])
 # output => ['d','e','f','g','h','i','j','k']
 print(my_string[::3])
 # output => ['a','d','g','j']
+print(my_string[::-1])
+# output => ['k', 'j', 'i', 'h', 'g', 'f', 'e', 'd', 'c', 'b', 'a']
 
 #! Tuples -  Similar to array, but uses parenthesis and is IMMUTABLE
 my_list = (1, 2, 3)
