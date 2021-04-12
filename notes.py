@@ -14,6 +14,17 @@ True or False
 #! Array
 my_list = [1, 2, 3]
 
+#! Indexing
+my_string = ['a','b','c','d','e','f','g','h','i','j','k']
+print(my_string[3])
+# output => d
+print(my_string[:3])
+# output => ['a','b','c']
+print(my_string[3:])
+# output => ['d','e','f','g','h','i','j','k']
+print(my_string[::3])
+# output => ['a','d','g','j']
+
 #! Tuples -  Similar to array, but uses parenthesis and is IMMUTABLE
 my_list = (1, 2, 3)
 
