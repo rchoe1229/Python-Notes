@@ -27,7 +27,6 @@ True or False
 #! Array
 my_list = [1, 2, 3]
 
-
 #! Tuples -  Similar to array, but uses parenthesis and is IMMUTABLE. Positions are significant
 my_list = (1, 2, 3)
 
@@ -164,7 +163,7 @@ print(
 )
 # output => [2, 4] this filter showed only values that were truthful and returned only even values
 
-#! Other calls
+#! Other methods
 s = 'hello my name is Ryan'
 print(s.lower())
 # output => hello my name is ryan
@@ -173,7 +172,19 @@ print(s.upper())
 print(s.split())
 # output => ['hello', 'my', 'name', 'is', 'Ryan']
 
-# Pop method
+#! Sort
+list = ['a','d','b','z','f']
+num_list = [4,6,2,7,8,3,1]
+
+list.sort()
+print(list)
+
+num_list.sort()
+print(num_list)
+
+# With sort there is no return in the same line. It sorts the list and you must then call/reassign the sorted list
+
+#! Pop method
 print(my_list.pop())
 # output => 5
 print(my_list)
@@ -182,7 +193,7 @@ my_list.append(5)
 print(my_list)
 # output => [1, 2, 3, 4, 5]
 
-# Format method
+#! Format method
 print('This is a string {}'.format('INSERTED'))
 #  output => This is a string INSERTED
 print('The {2} {1} {0}'.format('fox','brown','quick'))
