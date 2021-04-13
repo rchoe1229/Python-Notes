@@ -28,7 +28,7 @@ True or False
 my_list = [1, 2, 3]
 
 
-#! Tuples -  Similar to array, but uses parenthesis and is IMMUTABLE
+#! Tuples -  Similar to array, but uses parenthesis and is IMMUTABLE. Positions are significant
 my_list = (1, 2, 3)
 
 #! Set - Similar to dictionary, but only contains unique elements
