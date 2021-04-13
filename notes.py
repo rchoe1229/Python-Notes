@@ -189,7 +189,6 @@ print('The {2} {1} {0}'.format('fox','brown','quick'))
 # output => The quick brown fox
 print('The {q} {b} {f}'.format(f='fox',b='brown',q='quick'))
 # output => The quick brown fox
-
 """
 Float formatting allows users to adjust the values width and precision
 First number after colon represents the width or whitespace
@@ -203,6 +202,11 @@ print('The result was {r:1.3f}'.format(r=result))
 # output => The result was 0.129
 print('The result was {r:10.3f}'.format(r=result))
 # output => The result was      0.129
+"""
+Format f strings
+"""
+name = "Jose"
+print(f"Hello my name is {name}")
 
 #! Dictionary Calls
 d = {'k1':1,'k2':2 }
