@@ -184,7 +184,11 @@ print(num_list)
 
 # With sort there is no return in the same line. It sorts the list and you must then call/reassign the sorted list
 
-#! Pop method
+#! Reverse
+num_list.reverse()
+print(num_list)
+
+#! Pop/Append method
 print(my_list.pop())
 # output => 5
 print(my_list)
