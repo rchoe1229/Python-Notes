@@ -1,6 +1,7 @@
 
 #! Displaying information w/ print
 print("Hello World")
+# output => Hello World
 
 #! Indexing
 my_string = ['a','b','c','d','e','f','g','h','i','j','k']
@@ -14,13 +15,11 @@ print(my_string[::3])
 # output => ['a','d','g','j']
 print(my_string[::-1])
 # output => ['k', 'j', 'i', 'h', 'g', 'f', 'e', 'd', 'c', 'b', 'a']
-# output => Hello World
 
 #! Dictionary 
 d = {"k1": {"innerkey": [1, 2, 3]}}
 print(d["k1"]["innerkey"])
 # output => [1, 2, 3]
-
 
 #! Boolean
 True or False
