@@ -223,7 +223,7 @@ Format f strings
 name = "Jose"
 print(f"Hello my name is {name}")
 
-#! Dictionary Calls
+#! Dictionary Methods
 d = {'k1':1,'k2':2 }
 print(d.items())
 # output => dict_items([('k1', 1), ('k2', 2)])
