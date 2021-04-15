@@ -63,6 +63,21 @@ my_list = [1, 2, 3]
 #! Tuples -  Similar to array, but uses parenthesis and is IMMUTABLE. Positions are significant
 my_list = (1, 2, 3)
 
+#! Tuple Unpacking
+x = [(1,2),(3,4),(5,6)]
+print(x[0][0])
+# output => 1
+
+for item in x:
+  print(item)
+# output => (1, 2)
+# output => (3, 4)
+# output => (5, 6)
+
+for a,b in x:
+  print(a)
+# output => 1 ,3, 5
+
 #! Set - Similar to dictionary, but only contains unique elements
 print({1, 1, 1, 2, 2, 3, 4, 5, 6})
 # output => {1,2,3,4,5,6}
@@ -255,18 +270,3 @@ Format f strings
 """
 name = "Jose"
 print(f"Hello my name is {name}")
-
-#! Tuple Unpacking
-x = [(1,2),(3,4),(5,6)]
-print(x[0][0])
-# output => 1
-
-for item in x:
-  print(item)
-# output => (1, 2)
-# output => (3, 4)
-# output => (5, 6)
-
-for a,b in x:
-  print(a)
-# output => 1 ,3, 5
