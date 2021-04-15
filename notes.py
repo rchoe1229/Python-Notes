@@ -54,8 +54,9 @@ print(d.items())
 print(d.values())
 # output => dict_values([1, 2])
 
-#! Boolean
-True or False
+#! Boolean - Operators that allow you to convey true or false statements
+print(1>2)
+# output => False
 
 #! Array
 my_list = [1, 2, 3]
@@ -85,9 +86,16 @@ for a,b in x:
   print(a)
 # output => 1 ,3, 5
 
-#! Set - Similar to dictionary, but only contains unique elements
+#! Set - Unordered collections of unique elements
+"""
+Sets look similar to dictionaries due to the curly braces, but do not have key value pairs!
+"""
 print({1, 1, 1, 2, 2, 3, 4, 5, 6})
 # output => {1,2,3,4,5,6}
+
+my_list = [1,1,1,1,2,3,3]
+print(set(my_list))
+# output => {1, 2, 3}
 
 #! Comparison Operators
 print(1 >= 2)
