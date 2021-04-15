@@ -63,6 +63,13 @@ my_list = [1, 2, 3]
 #! Tuples -  Similar to array, but uses parenthesis and is IMMUTABLE. Positions are significant
 my_list = (1, 2, 3)
 
+#! Tuples Methods
+t = ('a','a','b')
+print(t.count('a'))
+# output => 2
+print(t.index('b'))
+# output => 2
+
 #! Tuple Unpacking
 x = [(1,2),(3,4),(5,6)]
 print(x[0][0])
