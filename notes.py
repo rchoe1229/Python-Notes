@@ -283,5 +283,5 @@ print('The result was {r:10.3f}'.format(r=result))
 """
 Format f strings
 """
-name = "Jose"
+name = "Chowder"
 print(f"Hello my name is {name}")
