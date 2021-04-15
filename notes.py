@@ -16,7 +16,24 @@ print(my_string[::3])
 print(my_string[::-1])
 # output => ['k', 'j', 'i', 'h', 'g', 'f', 'e', 'd', 'c', 'b', 'a']
 
-#! Dictionary 
+#! Dictionary - unordered mappings for storing objects, uses key-value pair
+"""
+When to use Dictionary vs List? 
+Dictionaries: Objects retrieved by key name and unordered/ cannot be sorted
+- Quickly retrieve a value w/o indexing
+- Cannot be sorted due to lack of order
+List: Objects retrieved by location
+- Ordered
+- Can be indexed or sliced
+"""
+my_dict = {'key1':'value1', 'key2':'value2'}
+print(my_dict['key2'])
+# output => value2
+
+prices_lookup = {'apple':2.99, 'banana':3.99, 'milk':6.99}
+print(prices_lookup['milk'])
+# output => 6.99
+
 d = {"k1": {"innerkey": [1, 2, 3]}}
 print(d["k1"]["innerkey"])
 # output => [1, 2, 3]
