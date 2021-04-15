@@ -34,9 +34,25 @@ prices_lookup = {'apple':2.99, 'banana':3.99, 'milk':6.99}
 print(prices_lookup['milk'])
 # output => 6.99
 
+#? How to add/override key-value pairs?
+prices_lookup['orange'] = 4.50
+print(prices_lookup)
+# output => {'apple': 2.99, 'banana': 3.99, 'milk': 6.99, 'orange': 4.5}
+
+prices_lookup['apple'] = 1.99
+print(prices_lookup)
+# output => {'apple': 1.99, 'banana': 3.99, 'milk': 6.99, 'orange': 4.5}
+
 d = {"k1": {"innerkey": [1, 2, 3]}}
 print(d["k1"]["innerkey"])
 # output => [1, 2, 3]
+
+#! Dictionary Methods
+d = {'k1':1,'k2':2 }
+print(d.items())
+# output => dict_items([('k1', 1), ('k2', 2)])
+print(d.values())
+# output => dict_values([1, 2])
 
 #! Boolean
 True or False
@@ -239,13 +255,6 @@ Format f strings
 """
 name = "Jose"
 print(f"Hello my name is {name}")
-
-#! Dictionary Methods
-d = {'k1':1,'k2':2 }
-print(d.items())
-# output => dict_items([('k1', 1), ('k2', 2)])
-print(d.values())
-# output => dict_values([1, 2])
 
 #! Tuple Unpacking
 x = [(1,2),(3,4),(5,6)]
