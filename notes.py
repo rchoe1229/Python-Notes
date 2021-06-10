@@ -205,7 +205,10 @@ iterpretation of a lamda expression
 """
 t = lambda var:var*2
 
+print(t(4))
+# output => 8
 print(times2(5))
+# output => 10
 
 my_list = [1,2,3,4,5]
 print(
